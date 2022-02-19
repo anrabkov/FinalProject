@@ -7,12 +7,15 @@ public class NewEntity{
     public NewEntity(String name, int age, Role role) {
         this.name = name;
         this.age = age;
-        this.role = role;
+
     }
 
     private Role role;
+    private User user;
 
-    public void fixRole(){
-        System.out.println(role.toString());
+    public void showScreen(){
+        System.out.println("hello from branch b");
     }
-}
+
+
+    }
