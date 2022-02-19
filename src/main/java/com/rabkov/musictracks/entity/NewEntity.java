@@ -17,5 +17,9 @@ public class NewEntity{
         System.out.println("hello from branch b");
     }
 
+    public void printString(String string){
+        System.out.println(string);
+    }
+
 
     }
