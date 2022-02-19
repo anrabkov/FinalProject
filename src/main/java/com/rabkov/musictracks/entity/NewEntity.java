@@ -21,5 +21,8 @@ public class NewEntity{
         System.out.println(string);
     }
 
-
+    public String printSting(String string){
+        return string;
     }
+}
+
