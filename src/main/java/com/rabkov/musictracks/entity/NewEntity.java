@@ -15,4 +15,8 @@ public class NewEntity{
     public void fixRole(){
         System.out.println(role.toString());
     }
+
+    public String printSting(String string){
+        return string;
+    }
 }
